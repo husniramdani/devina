@@ -50,10 +50,10 @@ parcelRequire = (function (e, r, t, n) {
     "object" == typeof exports && "undefined" != typeof module
       ? (module.exports = l)
       : "function" == typeof define && define.amd
-      ? define(function () {
-          return l;
-        })
-      : n && (this[n] = l);
+        ? define(function () {
+            return l;
+          })
+        : n && (this[n] = l);
   }
   if (((parcelRequire = f), i)) throw i;
   return f;
@@ -226,7 +226,7 @@ parcelRequire = (function (e, r, t, n) {
           o,
           i,
           e,
-          h
+          h,
         ) {
           return (
             i < 2 * h && (h = i / 2),
@@ -319,7 +319,7 @@ parcelRequire = (function (e, r, t, n) {
         function c(t) {
           if (void 0 === t)
             throw new ReferenceError(
-              "this hasn't been initialised - super() hasn't been called"
+              "this hasn't been initialised - super() hasn't been called",
             );
           return t;
         }
@@ -333,7 +333,7 @@ parcelRequire = (function (e, r, t, n) {
         function p(t, e) {
           if ("function" != typeof e && null !== e)
             throw new TypeError(
-              "Super expression must either be null or a function"
+              "Super expression must either be null or a function",
             );
           (t.prototype = Object.create(e && e.prototype, {
             constructor: { value: t, writable: !0, configurable: !0 },
@@ -362,7 +362,7 @@ parcelRequire = (function (e, r, t, n) {
                     n = 29,
                     o = new t.default(
                       i,
-                      t.default.GeometryHorizontalLinear(r, n, 4)
+                      t.default.GeometryHorizontalLinear(r, n, 4),
                     );
                   (e.sprites = { ditto: o }), e.main();
                 }),
@@ -583,7 +583,7 @@ parcelRequire = (function (e, r, t, n) {
                 (document.title = "Samlekum");
             });
             var d = document.createElement("button");
-            (d.textContent = "Ini Button 18+"),
+            (d.textContent = "Welcome to Devina"),
               d.addEventListener("click", function (e) {
                 d.parentNode.removeChild(d), i.appendChild(o), r.play();
               }),
@@ -614,5 +614,5 @@ parcelRequire = (function (e, r, t, n) {
   },
   {},
   ["Focm"],
-  null
+  null,
 );
