@@ -1,5 +1,7 @@
 # Devina AI - The Unrivalled Code Maestra
 
+[DEMO](https://devina-seven.vercel.app/)
+
 Welcome to the future of coding, where Devina AI, the world’s _second_ AI software engineer, takes the stage. Inspired by our friendly rival, Devin AI, Devina is here not just to code, but to revolutionize the way we think about software development.
 
 ## Features
